@@ -1,8 +1,76 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.com/"
 languageCode = "zh-CN"
 title = "我的 Hugo 博客"
 theme = "ananke"
+enableRobotsTXT = true
+paginate = 10
 
 [params]
   author = "你的名字"
   description = "用 Hugo 写的博客"
+  showReadingTime = true
+  # date format used in templates
+  dateFormat = "2006-01-02"
+  # theme-specific params (Ananke may use some of these)
+  subtitle = "记录与分享"
+  # social links (fill with your handles)
+  github = "https://github.com/youruser"
+  twitter = "https://twitter.com/youruser"
+  linkedin = "https://www.linkedin.com/in/youruser"
+
+# Menu entries for the main navigation
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 30
+
+# Comment system (Giscus) - uncomment and fill values to enable
+[params.comments]
+# provider = "giscus" # or "utterances" or "disqus"
+# For giscus, set these (get values from your GitHub Discussions setup):
+# giscus_repo = "youruser/yourrepo"
+# giscus_repo_id = "REPO_ID"
+# giscus_category = "General"
+# giscus_category_id = "CATEGORY_ID"
+# giscus_mapping = "pathname" # or "url" / "title"
+# giscus_reactions_enabled = true
+# giscus_emit_metadata = false
+# giscus_input_position = "bottom"
+# giscus_lang = "zh-CN"
+
+# Search configuration
+[params.search]
+  # provider = "lunr" # client-side JS search (no external service)
+  # provider = "algolia" # Algolia requires account and index
+  # For Algolia, fill these values:
+  # algolia_app_id = "YOUR_ALGOLIA_APP_ID"
+  # algolia_search_key = "YOUR_ALGOLIA_SEARCH_KEY"
+  # algolia_index_name = "YOUR_INDEX_NAME"
+
+# Analytics (example: Plausible)
+[params.analytics]
+  plausible = "" # e.g. "example.com" (leave empty to disable)
+
+# Output formats, useful if you want RSS/JSON feeds
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Optional: language settings (multi-language support can be added later)
+[languages]
+  [languages.zh]
+    languageName = "简体中文"
+    weight = 1
