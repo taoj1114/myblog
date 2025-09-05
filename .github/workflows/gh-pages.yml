@@ -5,6 +5,12 @@ on:
     branches:
       - master
 
+# Grant needed permissions for the GITHUB_TOKEN so the action can push to gh-pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -32,4 +38,3 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
