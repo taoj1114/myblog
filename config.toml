@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "zh-CN"
+title = "我的 Hugo 博客"
+theme = "ananke"
+
+[params]
+  author = "你的名字"
+  description = "用 Hugo 写的博客"
