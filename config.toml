@@ -42,9 +42,9 @@ paginate = 10
 [params.comments]
   provider = "giscus" # options: "giscus", "utterances", "disqus"
   # Fill these values from the giscus configurator (https://giscus.app/) or GitHub API
-  giscus_repo = ""            # e.g. "youruser/yourrepo"
-  giscus_repo_id = ""         # repo GraphQL node id
-  giscus_category = ""        # discussion category name
+  giscus_repo = "taoj1114/myblog"
+  giscus_repo_id = "R_kgDOPqLrXA"         # repo GraphQL node id
+  giscus_category = "General"        # discussion category name
   giscus_category_id = ""     # discussion category GraphQL node id
   giscus_mapping = "pathname" # or "url" / "title"
   giscus_reactions_enabled = true
