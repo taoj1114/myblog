@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>https://example.org/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 05 Sep 2025 11:55:28 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://example.org/posts/my-first-post/</link><pubDate>Fri, 05 Sep 2025 11:55:28 +0800</pubDate><guid>https://example.org/posts/my-first-post/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>https://example.org/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 05 Sep 2025 11:55:28 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>我的第一篇文章</title><link>https://example.org/posts/my-first-post/</link><pubDate>Fri, 05 Sep 2025 11:55:28 +0800</pubDate><guid>https://example.org/posts/my-first-post/</guid><description>&lt;p&gt;欢迎来到我的 Hugo 博客！这是用于测试的示例文章正文，内容为中文。&lt;/p&gt;
+&lt;p&gt;你可以在这里写任意 Markdown 内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;支持标题、列表、代码块&lt;/li&gt;
+&lt;li&gt;支持图片（放在 &lt;code&gt;static/&lt;/code&gt; 目录）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下面是一个代码示例：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;echo &lt;span style="color:#e6db74"&gt;&amp;#34;Hello Hugo&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;感谢阅读！如果评论区没有出现，检查 &lt;code&gt;myblog/config.toml&lt;/code&gt; 中的 Giscus 配置是否完整。&lt;/p&gt;</description></item></channel></rss>
